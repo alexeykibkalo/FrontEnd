@@ -1,0 +1,30 @@
+
+body{
+	background-color: black;
+	color: #AE80C7;
+}
+h1  {
+	color: #E2263B;
+}
+h2{
+	color: #E2263B;
+}
+
+hr {
+    border: none; 
+    color: red; 
+    background-color: #55D1D3;
+    height: 2px; 
+   }
+
+li {
+list-style-type: none; 
+}
+
+li:before {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 400;
+ color: #E2263B; 
+ content: "*";
+ padding-right: 5px; 
+}
