@@ -3,12 +3,10 @@ body{
 	background-color: black;
 	color: #AE80C7;
 }
-h1  {
+h1 , h2 {
 	color: #E2263B;
 }
-h2{
-	color: #E2263B;
-}
+
 
 hr {
     border: none; 

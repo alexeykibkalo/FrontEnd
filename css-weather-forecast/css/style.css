@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	background-color: #3399CC;
+	border: 20px solid #2B81AC;
+	height: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: white;
+		
+}
+
+ul{	
+	height: 70%;
+	padding: 0px 0px;
+	font-size: 0px;
+	border: 2px solid white;
+}
+
+li{
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	
+}
+
+
+
+span::after{
+	content: ' C ';
+}
+p{
+	margin-top: 0px;
+}
+.first{	
+	
+	
+}
+.second{
+	background-color: #2DB4B4;
+}
+.third{
+	background-color: #996699;
+}
+.fourth{
+	background-color: #C24747;	
+}
+.fifth{
+	background-color: #E2674A;
+}
+.sixth{
+	background-color: #FFCC66;
+}
+.seventh{
+	background-color: #99CC99;
+}
+.eighth{
+	background-color: #669999;
+}
+.ninth{
+	background-color: #CC6699;
+}
+.tenth{
+	background-color: #339966;
+}
+.eleventh{
+	background-color: #666699;
+}
+.whole{
+	width: 100%;
+	border: 2px solid white;
+}
+.half{
+	width: 50%;
+	border: 2px solid white;
+}
+.quarter{
+	width: 25%;
+	border: 2px solid white;
+}
