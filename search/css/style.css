@@ -1,0 +1,155 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+	color: #C1C1C1;
+	background-color: #F1F1F1;
+	font-family: Arial, sans-serif;
+}
+body>div{
+	padding: 0 20px;
+}
+span{
+	margin: 0 ;
+   	position: absolute;               
+   	top: 50%;                         
+   	transform: translate(0, -50%);  
+}
+ p{
+ 	font-size: 20px;
+ 	font-weight: 700;
+ 	text-transform: uppercase;
+ }
+.search_form
+{
+	
+}
+.search{
+	color: #c2c2c2;
+	width: 70%;
+	font-size: 70px;
+	border: none;
+	background-color: #F1F1F1;
+ }
+.find{
+	display: inline-block;
+	background: url('../img/magnifier.svg');
+	border: none;
+	width: 70px;
+    height: 70px;
+    position: absolute;
+	right: 20px;
+ }
+.column{
+	display: inline-block;
+	width: 33%;
+	font-size: 15px;
+	font-weight: 600;
+}
+.column>div{
+	position: relative;
+	background-color:  rgba(118,117,128,0.05);
+	margin-bottom: 5px;
+}
+.column>div:hover{
+	background-color: rgba(118,117,128,0.1);
+	color: red;
+}
+.column>div>div{
+	display: inline-block;
+
+
+}
+.people>div>div{
+	border-radius: 25px;
+}
+
+.bg-PatrickCox {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -80px -10px;
+}
+
+.bg-PeterFinlan {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -220px -10px;
+}
+
+.bg-RachelSmith {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -10px -80px;
+}
+
+.bg-SaraSoueidan {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -80px -80px;
+}
+
+.bg-TimHolman {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -150px -10px;
+}
+
+.bg-ShaunDona {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -150px -80px;
+}
+
+.bg-AnimatedHeaderBackgrounds {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -10px -150px;
+}
+
+.bg-ArrowNavigationStyles {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -80px -150px;
+}
+
+.bg-ArticleIntroEffects {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -150px -150px;
+}
+
+.bg-DraggableDualViewSlideshow {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -10px -10px;
+}
+
+.bg-FreebieHalcyonDays {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -220px -80px;
+}
+
+.bg-HoverEffectsIdeasNew {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -220px -150px;
+}
+
+.bg-NotificationStyles {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -10px -220px;
+}
+
+.bg-OffCanvas {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -80px -220px;
+}
+
+.bg-PagePreloadingEffect {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -150px -220px;
+}
+
+.bg-ResponsiveSVGs {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -220px -220px;
+}
+
+.bg-TabStyles {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -290px -10px;
+}
+.bg-TooltipStylesInspiration {
+    width: 50px; height: 50px;
+    background: url('../img/css_sprites.png') -290px -80px;
+}
