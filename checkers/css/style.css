@@ -1,0 +1,88 @@
+
+body>div{
+	margin: 0 auto;
+	height: 800px;
+	width: 800px;
+	font-size: 0;
+	border: 20px solid black;
+}
+body>div>div{
+	display: inline-block;
+	width: 12.5%;
+	height: 12.5%;
+}
+
+.row_1:nth-child(odd){
+	position: relative;
+	background-color:  black;
+}
+.row_3:nth-child(odd){
+	position: relative;
+	background-color:  black;
+}
+.row_5:nth-child(odd){
+	position: relative;
+	background-color:  black;
+}
+.row_7:nth-child(odd){
+	position: relative;
+	background-color:  black;
+}
+.row_2:nth-child(even){
+	position: relative;
+	background-color:  black;
+}
+.row_4:nth-child(even){
+	position: relative;
+	background-color:  black;
+}
+.row_6:nth-child(even){
+	position: relative;
+	background-color:  black;
+}
+.row_8:nth-child(even){
+	position: relative;
+	background-color:  black;
+}
+.row_1:nth-child(odd) div{
+	background-color:  red;
+	border-radius: 50%;
+	width: 80%;
+	height: 80%;
+}
+.row_2:nth-child(even) div{
+	background-color:  red;
+	border-radius: 50%;
+	width: 80%;
+	height: 80%;
+}
+.row_3:nth-child(odd) div{
+	background-color:  red;
+	border-radius: 50%;
+	width: 80%;
+	height: 80%;
+}
+.row_6:nth-child(even) div{
+	background-color:  #71706b;
+	border-radius: 50%;
+	width: 80%;
+	height: 80%;
+}
+.row_7:nth-child(odd) div{
+	background-color:  #71706b;
+	border-radius: 50%;
+	width: 80%;
+	height: 80%;
+}
+.row_8:nth-child(even) div{
+	background-color:  #71706b;
+	border-radius: 50%;
+	width: 80%;
+	height: 80%;
+}
+
+.center{
+	position: absolute;
+	left: 10%;
+	top: 10%;
+}
