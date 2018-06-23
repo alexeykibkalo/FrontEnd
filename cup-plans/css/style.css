@@ -1,0 +1,69 @@
+
+@font-face {
+    font-family: 'misoregular';
+    src: url('../fonts/miso-regular-webfont.woff2') format('woff2'),
+         url('../fonts/miso-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'misobold';
+    src: url('../fonts/miso-bold-webfont.woff2') format('woff2'),
+         url('../fonts/miso-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+*{
+	box-sizing: border-box;
+}
+.ak-main{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	background-color: #fdde7e;
+	padding: 5% 5%;
+}
+.ak-plan{
+	padding: 3% 0;
+	width: 30%;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.ak-plan:hover{
+	padding:6% 0;
+}
+.ak-plan_name{
+	margin-bottom: 0px;
+}
+.ak-plan_price{
+	font-size: 70px;
+	letter-spacing: 2px;
+	color: rgb(2,153,91);
+	font-family: "misobold";
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+.ak-plan_name{
+	font-size: 56px;
+	color: rgb(51,51,51);
+	font-family: "misobold";
+	text-align: center;
+	display: block;
+}
+.ak-plan_deskr{
+	font-size: 25px;
+	color: rgb(51,51,51);
+	font-family: "misoregular";
+	text-align: center;
+	display: block;
+}
